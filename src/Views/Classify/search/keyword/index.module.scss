@@ -1,0 +1,13 @@
+.list{
+    border-bottom : .01rem solid lightgray;
+    padding: .1rem 0;
+    &::after{
+        content: '';
+        clear: both;
+        display: block;
+    }
+    img{
+        width: 1.2rem;
+        float: left;
+    }
+}

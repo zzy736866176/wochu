@@ -1,0 +1,39 @@
+.type7{
+    padding: .1rem;
+    background-color: white;
+    &::after{
+        content:"";
+        display: block;
+        clear: both;
+        height: 0;
+    }
+    .type7content{
+        float: left;
+        width: 1.15rem;
+        // height: 1.65rem;
+        img{
+            width: 1.15rem;
+        }
+        h1,h2,h3{
+            font-size: .15rem;
+            font-weight: normal;
+            width: 1rem;
+            line-height: .2rem;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+        h1{
+            font-size: .13rem;
+        }
+        h2{
+            font-size: .15rem;
+            color: orangered;
+        }
+        h3{
+            font-size: .12rem;
+            color: gray;
+            text-decoration: line-through;
+        }
+    }
+}

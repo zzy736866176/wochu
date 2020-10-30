@@ -1,0 +1,16 @@
+.type16{
+    padding: .12rem;
+    &::after{
+        content:"";
+        display: block;
+        clear: both;
+        height: 0;
+    }
+    img{
+        width: 1.73rem;
+        float: right;
+        &:first-of-type{
+            float: left;
+        }
+    }
+}

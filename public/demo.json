@@ -1,0 +1,29 @@
+{
+    "hasError": false,
+    "errorCode": "200",
+    "statusCode": "200",
+    "errorMessage": "",
+    "data": {
+        "acts":[{
+            "name":"徐兆杨",
+            "age":"20",
+            "addr":"大连",
+            "tel":"110"
+        },{
+            "name":"王传文",
+            "age":"21",
+            "addr":"火星",
+            "tel":"112"
+        },{
+            "name":"张兆羽",
+            "age":"22",
+            "addr":"大连",
+            "tel":"114"
+        },{
+            "name":"马云",
+            "age":"23",
+            "addr":"杭州",
+            "tel":"119"
+        }]
+    }
+}

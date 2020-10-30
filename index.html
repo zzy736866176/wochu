@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div style="display: inline-block;">2222</div>
+    <div style="display: inline-block;">111</div>
+    <script>
+      const arr = [
+        {
+          name: "aaa",
+          value: 1
+        },
+        {
+          name: "bbb",
+          value: 2
+        },
+        {
+          name: "aaa",
+          value: 3
+        },
+        {
+          name: "ccc",
+          value: 4
+        },
+        {
+          name: "aaa",
+          value: 5
+        }
+      ];
+      const arr1 = [
+        {
+          name: "aaa",
+          value: 5
+        },
+        {
+          name: "aaa",
+          value: 3
+        },
+        {
+          name: "aaa",
+          value: 1
+        },
+        {
+          name: "ccc",
+          value: 4
+        },
+        {
+          name: "bbb",
+          value: 2
+        }
+      ];
+      console.log(arr);
+      console.log(arr1);
+
+      var flatArr = [1, 2, 3, [4, 5, [7, 8, 9], 6]];
+      var s = flatArr.flat(Infinity);
+      console.log("s:", s);
+      var t = arr.concat(arr1);
+      console.log("t:", t);
+    </script>
+  </body>
+</html>

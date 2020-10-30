@@ -1,0 +1,56 @@
+.des{
+    p{
+        width: 100%;
+        img{
+            width: 100%
+        }
+    }
+}
+.back{
+    width: .6rem;
+    height: .3rem;
+    background-color: black;
+    color:white;
+    text-align: center;
+    line-height: .26rem;
+    border-radius: 50%;
+    opacity: .5;
+    position: absolute;
+    z-index: 5;
+    top: .25rem;
+    left: .05rem;
+    font-size: .32rem;
+    transform: scale(.5,1)
+}
+.title{
+    width: 94%;
+    // height: .7rem;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: .1rem;
+    position: relative;
+    top: -.3rem;
+    z-index: 3;
+    text-indent: .15rem;
+    padding-top: .2rem;
+    box-shadow: .1rem .1rem .3rem lightgray;
+    p{  
+        overflow : hidden;
+        text-overflow : ellipsis;
+        white-space : nowrap;
+        font-size: .18rem;
+        font-weight: bold;
+        line-height: .3rem;
+    }
+    h2{
+        line-height: .3rem;
+        font-weight: normal;
+        font-size: .2rem;
+        color: orangered;
+        span{
+            font-size: .12rem;
+            text-decoration: line-through;
+            color: lightgray;
+        }
+    }
+}

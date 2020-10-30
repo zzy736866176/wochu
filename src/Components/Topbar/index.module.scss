@@ -1,0 +1,23 @@
+.topbar{
+    height: .45rem;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 3;
+    img{
+        height: 45%;
+        margin-top: .12rem;
+        margin-left: .12rem;
+        float: left;
+    }
+    p{
+        line-height: .45rem;
+        text-indent: .3rem;
+        font-size: .14rem;
+        &::after{
+            content: '▼';
+            font-size: .1rem;
+            padding-left: .1rem;
+        }
+    }
+}

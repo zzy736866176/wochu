@@ -1,0 +1,33 @@
+.type13{
+    background-color: white;
+    .type13content{
+        margin-left:.15rem; 
+        margin-right:-.15rem; 
+        background-color: white;
+        img{
+            width: 1rem;
+        }
+        p{
+            width: 1rem;
+            font-size: .12rem;
+            line-height: .3rem;
+            color: gray;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        h3{
+            font-size: .13rem;
+        }
+        div{
+            h2{
+                font-size: .12rem;
+                color: lightgray;
+                text-decoration: line-through;
+            }
+            h3{
+                font-size: .13rem;
+            }
+        }
+    }
+}

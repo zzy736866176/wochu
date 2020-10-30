@@ -1,0 +1,15 @@
+div{
+    h2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .titlelist{
+        display: flex;
+        justify-content: space-around
+    }
+    li{
+        display: flex;
+        height: .5rem;
+        justify-content: space-between;
+    }
+}

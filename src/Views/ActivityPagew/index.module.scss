@@ -1,0 +1,77 @@
+.all{
+    background-color: white;
+    text-align: center;
+    &::after{
+        content:"";
+        display: block;
+        clear: both;
+        height: 0;
+    }
+    .even{
+        float: left;
+        width: 45%;
+        margin: .06rem;
+        background-color: white;
+        img{
+            width: 100%;
+        }
+        p{
+            font-size: .14rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            text-indent: .1rem;
+        }
+        h2,h3{
+            font-size: .14rem;
+            font-weight: normal;
+            line-height: .2rem;
+            height: .2rem;
+        }
+        div{
+            h2{
+                font-size: .12rem;
+                color: gray;
+                text-decoration: line-through;
+            }
+            h3{
+                font-size: .14rem;
+                color: orangered
+            }
+        }
+    }
+    
+    .odd{
+        float: left;
+        width: 30%;
+        margin: .05rem;
+        background-color: white;
+        img{
+            width: 100%;
+        }
+        p{
+            font-size: .14rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            text-indent: .1rem;
+        }
+        h2,h3{
+            font-size: .14rem;
+            font-weight: normal;
+            line-height: .2rem;
+            height: .2rem;
+        }
+        div{
+            h2{
+                font-size: .12rem;
+                color: gray;
+                text-decoration: line-through;
+            }
+            h3{
+                font-size: .14rem;
+                color: orangered
+            }
+        }
+    }
+}
